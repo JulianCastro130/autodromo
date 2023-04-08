@@ -38,8 +38,10 @@ export default function Home() {
             onClick={() => handleClick(2)}
             src={img1}
             alt="1"
-            className="animate__animated animate__fadeInRight"
+            className="animate__animated animate__fadeIn"
             data-id="1"
+            width="400"
+            height="800"
           />
         )}
         {show === 2 && (
@@ -49,6 +51,8 @@ export default function Home() {
             alt="2"
             className="animate__animated animate__fadeInRight"
             data-id="2"
+            width="400"
+            height="800"
           />
         )}
         {show === 3 && (
@@ -58,6 +62,8 @@ export default function Home() {
             alt="3"
             className="animate__animated animate__fadeInRight"
             data-id="3"
+            width="400"
+            height="800"
           />
         )}
         {show === 4 && (
@@ -67,6 +73,8 @@ export default function Home() {
             alt="4"
             className="animate__animated animate__fadeInRight"
             data-id="4"
+            width="400"
+            height="800"
           />
         )}
         {show === 5 && (
@@ -76,6 +84,8 @@ export default function Home() {
             alt="5"
             className="animate__animated animate__fadeInRight"
             data-id="5"
+            width="400"
+            height="800"
           />
         )}
         {show === 6 && (
@@ -85,6 +95,8 @@ export default function Home() {
             alt="6"
             className="animate__animated animate__fadeInRight"
             data-id="6"
+            width="400"
+            height="800"
           />
         )}
       </main>
